@@ -1,0 +1,9 @@
+logsLever:
+  default: info
+
+mysql:
+  connect: testuser:1q2w3e@(127.0.0.1:3306)/cpay_test?charset=utf8mb4&parseTime=True&loc=Local
+
+eos:
+  vault:
+    contract: texaspokerc2

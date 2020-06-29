@@ -1,0 +1,10 @@
+__debug_bin
+config/prod.yaml
+/main
+/bin
+/logs
+*.code-workspace
+.vscode/launch.json
+.idea
+
+/cpay

@@ -1,0 +1,17 @@
+mysql:
+  connect: eos:123456@(127.0.0.1:3306)/texas_eos?charset=utf8mb4&parseTime=True&loc=Local
+
+eos:
+  endpoints:
+    - https://api.eoslaomao.com
+    - https://mainnet.eoscanada.com
+
+  vault:
+    contract: gopokerdotio
+
+  admin:
+    account: gopokeradmin
+    private: 5KM2ZBWFWmtPMTJXDUZp5CnPbR6NuGPEi2rpd8vhYkdDj1xZtt2
+
+depositNoticeUrl: https://texas.scorpion-game.com/v1/cb/third/pay/eos
+authNoticeUrl: https://texas.scorpion-game.com/v1/cb/third/bind/eos

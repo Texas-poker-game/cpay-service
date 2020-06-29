@@ -1,0 +1,35 @@
+# dev
+# @base = http://localhost:8082
+
+# test
+# @base = http://106.14.31.240:8082
+
+# gamma
+@base = http://118.24.147.175:8082
+
+###
+
+GET {{base}}/ping
+
+###
+
+POST {{base}}/eos/withdraw
+Content-Type: application/json
+
+{"to": "gopokeradmin", "sid": "a1238", "amount": 0.2}
+
+###
+
+POST {{base}}/eos/deposit/notice
+Content-Type: application/json
+
+{"from": "eos转账时from的账号", "sid": "流水号", "amount": 0.108, "memo": "前端转账时的memo信息"}
+
+###
+POST {{base}}/eos/auth/token
+
+###
+POST https://texas.rc.x9mj.com/v1/cb/third/bind/eos
+Content-Type: application/json
+
+{"eos": "test1111", "token": "123111"}

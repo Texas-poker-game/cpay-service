@@ -1,0 +1,14 @@
+logsLever:
+  default: info
+
+mysql:
+  connect: eos:123456@(127.0.0.1:3306)/texas_eos?charset=utf8mb4&parseTime=True&loc=Local
+
+eos:
+  endpoints:
+    - https://kylin.eos.dfuse.io
+  vault:
+    contract: texaspokerc1
+
+depositNoticeUrl: http://127.0.0.1:19528/v1/cb/third/pay/eos
+authNoticeUrl: http://127.0.0.1:19528/v1/cb/third/bind/eos

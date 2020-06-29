@@ -1,0 +1,19 @@
+logsRoot: ./logs
+logsLever:
+  default: info
+
+server:
+  api:
+    address: 0.0.0.0:8082
+
+eos:
+  endpoints:
+    - https://kylin.eos.dfuse.io
+    - https://kylin.eoscanada.com
+
+  admin:
+    account: gopokeradmin
+    private: 5JJeQYPjnucjHmD9ccbhPPkMHvCD2Gtktaue1Be7EePswzFfjmX
+
+depositNoticeUrl: https://texas.rc.x9mj.com/v1/cb/third/pay/eos
+authNoticeUrl: https://texas.rc.x9mj.com/v1/cb/third/bind/eos
